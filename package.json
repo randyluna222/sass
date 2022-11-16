@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass -w sass public/css",
+    "sass": "sass -w sass:public/css",
     "sass-build": "sass -w sass:public-build/css -s compressed"
   },
   "author": "",

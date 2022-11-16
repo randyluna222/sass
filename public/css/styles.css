@@ -1,32 +1,559 @@
-.sprite {
-  background-image: url("../img/sprite.png");
+* {
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.conteiner_3 {
+  margin-left: 50px;
+}
+
+.button_1 {
+  position: relative;
+  top: 162px;
+  border: solid #303030;
+  border-width: 10px 35px;
+  background: #303030;
+}
+
+.button_1 a {
+  color: #f7f7f7;
+}
+
+.button_2 {
+  border: solid #303030;
+  border-width: 10px 35px;
+  background: #303030;
+  color: #f7f7f7;
+  font-family: "Kanit", sans-serif;
+}
+
+a {
+  font-family: "Kanit", sans-serif;
+}
+
+p {
+  font-family: "Kanit", sans-serif;
+}
+
+.parrafo {
+  font-family: "Kanit", sans-serif;
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Libre Franklin", sans-serif;
+}
+
+h2 {
+  font-family: "Libre Franklin", sans-serif;
+}
+
+h3 {
+  font-family: "Kanit", sans-serif;
+}
+
+h4 {
+  font-family: "Kanit", sans-serif;
+  color: #cac7c7;
+}
+
+.color_5 {
+  color: #cac7c7;
+}
+
+/* menu */
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 45px 0px 45px 0px;
+  padding-left: 0px;
+  min-width: 300px;
+}
+
+nav ul {
+  padding: 0px 200px 10px 200px;
+  justify-items: center;
+}
+
+nav a {
+  color: black;
+  margin-right: 10px;
+}
+
+.color {
+  color: #E27D60;
+}
+
+body {
+  max-width: 1170px;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.conteiner_1 {
+  text-align: center;
+  background-color: #E6E6E6;
+}
+
+.conteiner_1 p {
+  color: #303030;
+}
+
+main ul {
+  position: relative;
+  justify-items: center;
+  left: 459px;
+}
+
+main a {
+  color: black;
+  margin-right: 10px;
+}
+
+.color_2 {
+  color: #E27D60;
+  text-decoration: underline;
+}
+
+/* Grid home */
+.links {
+  margin-top: 40px;
+}
+
+.button_4 a {
+  position: relative;
+  left: 600px;
+  bottom: 150px;
+  color: white;
+  border: solid #303030;
+  border-width: 10px 35px;
+  background: #303030;
+}
+
+.cont_grid {
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  margin: 30px 0px 0px 50px;
+  grid-template-rows: 34% 0% auto 0%;
+  grid-template-areas: "1 1 1 1 1 1 1" "2 2 2 2 2 2 2" "3 3 3 3 3 3 3" "4 4 4 4 4 4 4";
+}
+
+.c1 {
+  grid-area: 1;
+}
+
+.c2 {
+  grid-area: 1;
+}
+
+.c3 {
+  grid-area: 1;
+}
+
+.c4 {
+  grid-area: 2/2;
+}
+
+.c5 {
+  grid-area: 2/3;
+}
+
+.c6 {
+  grid-area: 1;
+}
+
+.grid_2 {
+  display: grid;
+  margin: 30px 0px 0px 50px;
+  grid-template-rows: 34% 0% auto 0%;
+  grid-template-areas: "1 1 1 1 1 1 1" "2 2 2 2 2 2 2";
+}
+
+.c7 {
+  grid-area: 1;
+}
+
+.c8 {
+  grid-area: 1;
+}
+
+.c9 {
+  grid-area: 2/1;
+}
+
+.c10 {
+  grid-area: 1/4;
+}
+
+.c11 {
+  grid-area: 1/3;
+}
+
+.c12 {
+  grid-area: 2/4;
+}
+
+.grid_3 {
+  display: grid;
+  margin: 30px 0px 0px 50px;
+  grid-template-rows: 34% 0% auto 0%;
+  grid-template-areas: "1 1 1 1 1 1 1" "2 2 2 2 2 2 2" "3 3 3 3 3 3 3" "4 4 4 4 4 4 4";
+}
+
+.c13 {
+  grid-area: 1;
+}
+
+.c14 {
+  grid-area: 1;
+}
+
+.c15 {
+  grid-area: 1;
+}
+
+.c16 {
+  grid-area: 2/2;
+}
+
+.c17 {
+  grid-area: 2/3;
+}
+
+.c18 {
+  grid-area: 1;
+}
+
+/* Main de Beauty */
+.conteiner_2 {
+  display: flex;
+  padding: 100px 0px 30px 110px;
+}
+
+.imagenes {
+  display: inline;
+  margin-right: 2px;
+}
+
+.text {
+  padding-left: 20px;
+  padding-right: 50px;
+}
+
+.text_2 {
+  position: relative;
+  top: 130px;
+}
+
+.text_3 {
+  position: relative;
+  top: 230px;
+}
+
+.color_4 {
+  color: rgb(90, 89, 89);
+}
+
+/* subscribe de Beauty */
+.subscribe {
+  display: flex;
+  background-image: url(../Img/Beauty/Background.png);
   background-repeat: no-repeat;
-  display: block; }
+  padding: 120px 0px 70px 0px;
+  color: white;
+}
 
-.ir {
-  background-color: transparent;
-  border: 0;
-  overflow: hidden;
-  /* IE 6/7 fallback */
-  text-indent: -9999px; }
+.texto {
+  position: relative;
+  left: 110px;
+  bottom: 10px;
+}
 
-.ir:before {
-  content: "";
+.correo {
+  position: relative;
+  left: 120px;
+  top: 30px;
+}
+
+.correo input {
+  width: 550px;
+  height: 43px;
+}
+
+.button_5 {
+  font-family: "Kanit", sans-serif;
+  color: white;
+  border: solid #303030;
+  border-width: 10px 35px;
+  background: #303030;
+}
+
+.correo button {
+  width: 120px;
+  height: 43px;
+  margin-left: 20px;
+}
+
+/* services */
+.prin {
+  display: flex;
+  padding-top: 10px;
+  margin-top: 60px;
+}
+
+.service {
+  padding: 50px;
+}
+
+.button a {
+  position: relative;
+  left: 620px;
+  top: 40px;
+  color: white;
+  border: solid #303030;
+  border-width: 10px 35px;
+  background: #303030;
+}
+
+.texto_2 {
+  text-align: end;
+  padding: 0px 80px 0px 120px;
+}
+
+.imagenes_2 {
+  display: flex;
+  padding: 0px 0px 2px 2px;
+}
+
+.contenedor {
+  padding: 110px 0px 110px 0px;
+}
+
+.image {
+  position: relative;
+  left: 70px;
+  top: 30px;
+}
+
+.offert {
+  display: flex;
+  background-image: url(../Img/Services/Background.png);
+  background-repeat: no-repeat;
+  padding: 120px 0px 95px 0px;
+  color: white;
+}
+
+.comments {
+  display: flex;
+  padding: 110px 0px 110px 0px;
+}
+
+.comments p {
+  border: solid #E6E6E6;
+}
+
+.position {
+  position: relative;
+  left: 70px;
+  padding-left: 90px;
+}
+
+.position_2 {
+  display: flex;
+  padding-top: 20px;
+  margin-right: 6px;
+}
+
+.position_3 {
+  padding-left: 20px;
+}
+
+.position_2 img {
+  width: 40px;
+}
+
+.abajo {
+  position: relative;
+  top: 210px;
+  right: 560px;
+}
+
+/* about */
+.subscribe2 {
+  display: flex;
+  background-image: url(../Img/About/Background.png);
+  background-repeat: no-repeat;
+  padding: 95px 0px 95px 0px;
+  color: white;
+}
+
+.correo2 {
+  position: relative;
+  left: 120px;
+}
+
+.correo2 input {
+  width: 550px;
+  margin-top: 5px;
+  height: 35px;
+}
+
+.correo2 button {
   display: block;
-  width: 0;
-  height: 150%; }
+  margin-top: 5px;
+  width: 120px;
+  height: 43px;
+}
 
-.flag-usa {
-  width: 255px;
-  height: 135px;
-  background-position: -5px -143px; }
+.doctores {
+  display: flex;
+  padding-top: 30px;
+  padding-left: 50px;
+}
 
-.flag-canada {
-  width: 255px;
-  height: 128px;
-  background-position: -5px -5px; }
+.social_2 {
+  position: relative;
+  left: 71px;
+  bottom: 20px;
+}
 
-.flag-mexico {
-  width: 255px;
-  height: 128px;
-  background-position: -5px -288px; }
+.image_2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 250px 0px 250px;
+}
+
+.anchor {
+  display: flex;
+  justify-content: center;
+}
+
+.anchor a {
+  color: white;
+  border: solid grey;
+}
+
+.ejemplos {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 200px 0px 50px 0px;
+}
+
+.ejemplos p {
+  margin: 0rem 0.625rem 0rem 0rem;
+}
+
+/* footer */
+.foot {
+  display: flex;
+  background-color: #303030;
+}
+
+.foot_2 {
+  margin-left: 150px;
+}
+
+.f_1 {
+  display: flex;
+  padding-top: 100px;
+}
+
+.f_1 p {
+  color: white;
+}
+
+.f_1 img {
+  padding-left: 10px;
+  width: 30px;
+  height: 20px;
+  margin-left: 20px;
+}
+
+.redes {
+  color: white;
+  position: relative;
+  left: 250px;
+  display: flex;
+  flex-direction: column;
+  margin: 70px 40px 40px 40px;
+}
+
+.parra {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2.1875rem;
+}
+
+.redes a {
+  color: white;
+  margin-bottom: 40px;
+}
+
+.color_3 {
+  color: #E27D60;
+  margin-bottom: 40px;
+}
+
+/* Responsive */
+@media screen and (max-width: 890px) {
+  body {
+    width: 100%;
+  }
+  img {
+    width: 100%;
+  }
+  .button_4 {
+    position: relative;
+    right: 200px;
+    top: 50px;
+  }
+  .links a {
+    position: relative;
+    right: 200px;
+  }
+  nav {
+    padding-left: 50px;
+  }
+  nav ul {
+    display: flex;
+    padding: 0px 50px 10px 50px;
+  }
+  .subscribe {
+    display: block;
+    padding: 50px 100px 0px 0px;
+  }
+  .texto {
+    position: relative;
+    left: 110px;
+    bottom: 50px;
+  }
+  .correo {
+    position: relative;
+    left: 120px;
+  }
+  .correo input {
+    width: 250px;
+    height: 23px;
+  }
+  .correo button {
+    width: 120px;
+    height: 43px;
+    margin-left: 20px;
+  }
+  .redes {
+    display: flex;
+  }
+  .foot {
+    display: inline-block;
+    padding-right: 550px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
